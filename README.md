@@ -2,6 +2,8 @@
 
 A single-page React application that fetches comments and posts from the public JSONPlaceholder API and presents them in an interactive, spreadsheet-like table.  Users can search, paginate, and **inline-edit** comment fields directly in the browser; edits are persisted to _localStorage_ so that they survive page reloads without mutating the public API.
 
+**Live Demo:** [comments-table.netlify.app](https://comments-table.netlify.app/)
+
 **Repository:** [iakshayrathee/frejun-frontend-intern-task](https://github.com/iakshayrathee/frejun-frontend-intern-task.git)
 
 > Built with **React 19** + **Vite 7** and styled with vanilla CSS. No external state-management or UI libraries are used.
@@ -16,8 +18,6 @@ A single-page React application that fetches comments and posts from the public 
 4. [Project Structure](#project-structure)
 5. [Data Flow & Local Storage Schema](#data-flow--local-storage-schema)
 6. [API Reference](#api-reference)
-7. [Contributing](#contributing)
-8. [License](#license)
 
 ---
 
